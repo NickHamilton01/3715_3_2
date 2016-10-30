@@ -1,0 +1,12 @@
+body{
+	text-align: center;
+	background-color: #EBFAFF
+}
+.logo img {
+	float: left;
+ 	width: 200px;
+  	height: 100px;
+}
+.message p {
+	font-size: 20pt;
+}

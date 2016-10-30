@@ -1,0 +1,85 @@
+body{
+	background-color: #EBFAFF
+}
+.logo img {
+	float: left;
+ 	width: 200px;
+  	height: 100px;
+}
+.name{
+	border-radius: 25px;
+	background-color: #5FFAFF;
+	padding: 0px 20px 28px 20px;
+}
+.name h1{
+	font-family: comic sans ms;
+}
+.details{
+	float: right;
+}
+.friends{
+	font-family: comic sans ms;
+}
+.friendList{
+	font-family: serif;
+	margin-top:20px;
+	width:500px;
+	height: 100px;
+	background-color: #5FFAFF;
+	border-radius: 25px;
+	padding: 25px;
+	clear: right;
+	display: inline-block;
+}
+.friendList h1{
+	font-size: 14pt;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.friendList img{
+	float: right;
+	max-width: 90px;
+	max-height: auto;
+	width: auto;
+	height: auto;
+}
+p{
+	float: left;
+}
+.schedule {
+	margin-top: 60px;
+	margin-bottom: 20px;
+	width: 200px;
+	padding: 20px;
+	background-color: #5FFAFF;
+	float: right;
+	border-radius: 25px;
+	height: 450px;
+	display: inline-block;
+}
+a.friendName {
+	color: black;
+}
+a.friendName:link{
+	text-decoration:none;
+}
+a.friendName:visited{
+	color: purple;
+	text-decoration: none;
+}
+a.friendName:hover{
+	text-decoration: underline;
+}
+.footer{
+	border-radius: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	clear: right;
+	font-size: 4pt;
+	width: 900px;
+	background-color: #5FFAFF;
+	margin-left: auto;
+	margin-right: auto;
+        margin-top: 15px;
+}

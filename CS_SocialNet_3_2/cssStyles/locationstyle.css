@@ -1,0 +1,55 @@
+body {
+	background-color: #EBFAFF
+        
+}
+.header img {
+  float: left;
+  width: 200px;
+  height: 100px;
+}
+
+.header h1 {
+   margin-left: 600px;
+   font-size: 24pt;
+}
+
+.user {
+  border-radius: 25px;
+	background-color: #5FFAFF;
+	padding: 20px 20px 5px 20px;
+        margin: 0px 250px 10px 250px;
+  text-align: center;
+  font-size: 15pt;
+}
+
+#map {height: 400px;
+      width: 100%;
+}
+
+table, th, td {
+    
+    margin: 10px 450px 0px 450px;
+    font-size: 16pt;
+    border-radius: 5px;
+}
+
+th { 
+   background-color: #4E5DFF
+}
+td {
+   background-color: #5FFAFF
+}
+
+.footer{
+	border-radius: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	clear: right;
+	font-size: 4pt;
+	width: 900px;
+	background-color: #5FFAFF;
+	margin-left: auto;
+	margin-right: auto;
+        margin-top: 15px;
+}
