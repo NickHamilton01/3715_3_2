@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmPph9ot_fOJU86-Xrn6FzRcERDxfw-B4&callback=getPosition"></script>
+    <script src="http://maps.google.com/maps/api/js?key=AIzaSyAmPph9ot_fOJU86-Xrn6FzRcERDxfw-B4"></script> 
     <script src="./jscripts/myLoc.js"></script>
     <link rel="stylesheet" href="./cssStyles/locationStyle.css">
     <title>Location</title>
@@ -28,10 +28,23 @@
     </div>
     
     <div id="map">
-        
     </div>
     
-    <div class="table">
+    <div id="input">
+        <form>
+            <select	id="friendSelect">
+                <option>Nick</option>
+                <option>Ryan</option>
+                <option>Homer</option>
+            </select>
+        
+            <select	id="locationSelect">
+                <option>MUN</option>
+                <option>Downtown</option>
+                <option>Avalon Mall</option>
+            </select>
+            
+            <input type="button" id="addLoc" value="Add Location">
     <table>
         <tr>
             <th>Name</th>

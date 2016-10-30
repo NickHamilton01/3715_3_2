@@ -1,25 +1,17 @@
-window.onload = getPosition;
-var start;
-function getPosition() {
-	if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(setLoc);
-    } 
-	else {
-        x.innerHTML = "Geolocation is not supported by this browser.";
-    }
+window.onload = setMap;
+
+
+function setMap() {
+    var start = {lat: 47.552400, lng: -52.71};
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 12,
+      center: start
+    });
+    
+    var button = document.getElementById("addLoc");
+    button.onclick = handleButtonClick;
 }
 
-function setLoc(position) {
-	start = {lat: position.coords.latitude, lng: position.coords.longitude};
-}
-
-function initMap(position) {
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
-          center: start
-        });
-        var marker = new google.maps.Marker({
-          position: start
-          map: map
-        });
+function handleButtonClick() {
+	alert("button was clicked");
 }

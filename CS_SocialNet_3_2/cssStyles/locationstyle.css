@@ -22,8 +22,10 @@ body {
   font-size: 15pt;
 }
 
-#map {height: 400px;
-      width: 100%;
+#map {align: center;
+	height: 400px;
+      width: 50%;
+      padding: 0px 0px 15px 330px;
 }
 
 table, th, td {
