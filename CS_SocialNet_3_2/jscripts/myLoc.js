@@ -1,3 +1,4 @@
+
 window.onload = setMap;
 
 
@@ -30,6 +31,8 @@ function handleButtonClick() { var x = document.getElementById("tbody")
         nameCell.innerHTML = friend;
         locCell.innerHTML = location;
         dateCell.innerHTML = date.getDay()+"/"+date.getMonth()+"/"+date.getFullYear()+" at "+date.getHours()+":"+date.getMinutes();
+        var content = friend+" was here on"+dateCell.innerHTML;
+        addMarker(map, friend, content, location);
 	}
 	
     else {
@@ -40,10 +43,8 @@ function handleButtonClick() { var x = document.getElementById("tbody")
         nameCell.innerHTML = friend;
         locCell.innerHTML = location;
         dateCell.innerHTML = date.getDay()+"/"+date.getMonth()+"/"+date.getFullYear()+" at "+date.getHours()+":"+date.getMinutes();
-        
         var content = friend+" was here on"+dateCell.innerHTML;
-        
-        addMarker(map, friend, content, location)
+        addMarker(map, friend, content, location);
     }
 }
 
